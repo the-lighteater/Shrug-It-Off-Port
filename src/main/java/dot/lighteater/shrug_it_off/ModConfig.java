@@ -125,7 +125,7 @@ public class ModConfig {
             soundeventString = builder.comment("Define a specific sound to play during deflection.")
                             .defineListAllowEmpty(
                                     "soundEventString",
-                                    List.of("minecraft:block.anvil.fall"),
+                                    List.of("minecraft:block.anvil.land"),
                                     o -> o instanceof String
                                     );
 
